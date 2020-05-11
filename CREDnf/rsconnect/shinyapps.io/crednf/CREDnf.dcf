@@ -5,8 +5,9 @@ account: crednf
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1495023
-bundleId: 2771670
+bundleId: 3131464
 url: https://crednf.shinyapps.io/CREDnf/
-when: 1580743415.50584
+when: 1589196451.771
 asMultiple: FALSE
 asStatic: FALSE
+ignoredFiles: tests
