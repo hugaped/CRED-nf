@@ -1,7 +1,9 @@
 ---
 title: "CRED-nf checklist summary"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
-output: pdf_document
+output: 
+  pdf_document:
+    latex_engine: xelatex
 classoption: landscape
 geometry: margin=2cm
 header-includes:
