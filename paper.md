@@ -11,7 +11,8 @@ authors:
     orcid: 0000-0002-7813-3749
     affiliation: 1
   - name: Robert T Thibault
-    orcid: 0000-0002-6561-3962    affiliation: 2, 3
+    orcid: 0000-0002-6561-3962    
+    affiliation: "2, 3"
 affiliations:
  - name: Population Health Sciences, University of Bristol
    index: 1
