@@ -1,7 +1,3 @@
----
-bibliography: crednf.bib
----
-
 # CRED-nf online checklist tool (Version 0.1.0)
 
 Neurofeedback is a process in which brain activity is recorded and presented back to participants in real-time. Neurofeedback is generally used to learn to self-regulate brain activity, and often to improve a behaviour or mental state associated with that brain activity. While neurofeedback appears to improve behaviour and mental states, there is a debate as to what extent the benefits stem from self-regulating brain activity versus from psychosocial factors such as placebo effects. A lack of standards for experimental design and reporting leaves room for various interpretation of extant data. With this in mind, neurofeedback research collaborated and produced The Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf) checklist (https://doi.org/10.1093/brain/awaa009).
