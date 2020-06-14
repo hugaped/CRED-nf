@@ -4,8 +4,7 @@ bibliography: crednf.bib
 
 # CRED-nf online checklist tool
 
-
-The CRED-nf checklist [@Ros2020] was developed to promote consistency and to standardise the design and reporting of neurofeedback studies. There is currently considerable heterogeneity in the reporting of these studies, which make it challenging to reliably assess the efficacy of neurofeedback techniques. By providing a set of standardised items the CRED-nf checklist provides a framework to address these issues.
+Neurofeedback is a process in which brain activity is recorded and presented back to participants in real-time. Neurofeedback is generally used to learn to self-regulate brain activity, and often to improve a behaviour or mental state associated with that brain activity [@Thibault2015]. While neurofeedback appears to improve behaviour and mental states, there is a debate as to what extent the benefits stem from self-regulating brain activity versus from psychosocial factors such as placebo effects [@Ros2020]. A lack of standards for experimental design and reporting leaves room for various interpretation of extant data. With this in mind, neurofeedback research collaborated and produced The Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf) checklist [@Ros2020].
 
 This CRED-nf online tool is an R Shiny app that accompanies the development of the checklist. It makes it easy for users to complete the checklist via a web browser, providing prompting questions for each of the items and highlighting those where users have left responses blank. It can also be used to generate a PDF report of responses which can be included alongside a manuscript submission to journals so that reviewers can have access to the completed checklist.
 
@@ -33,14 +32,14 @@ The majority of users can run the app in a web broswer via the shiny.io server i
 
 The app can also be run locally in R, for which two files `app.R` and `report.Rmd` are required. The following dependencies are also required:
 
-R (>= 3.0.0)
-shiny (>= 1.3.2)
-rmarkdown (>= 1.16)
+R ($\ge$ 3.0.0)
+shiny ($\ge$ 1.3.2)
+rmarkdown ($\ge$ 1.16)
 
 A TeX distribution (operating system-dependent) with the following packages:
-fancyhdr (>= 3.10)
-longtable (>= 4.12)
-array (>= 2.41)
+fancyhdr ($\ge$ 3.10)
+longtable ($\ge$ 4.12)
+array ($\ge$ 2.41)
 
 
 ## Testing
