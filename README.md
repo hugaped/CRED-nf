@@ -42,6 +42,10 @@ longtable ($\ge$ 4.12)
 array ($\ge$ 2.41)
 
 
+## Support and Contributions
+
+For those wishing to contribute or to raise issues regarding the functionality of the app, please raise and issue on GitHub (https://github.com/hugaped/CRED-nf) or email `robert.thibault@bristol.ac.uk` with the subject `CRED-nf Shiny App`. We are also open to providing support for adapting this app to other checklists.
+
 ## Testing
 
 Automatic testing can be performed using the `shinytest` R package. Two test files exist - one for testing checklist domains 1-3 and one for testing checklist domains 4-7. Both sets of tests can be performed simultaneously by running the `RunTests.R` script.
