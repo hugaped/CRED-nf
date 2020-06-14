@@ -4,7 +4,7 @@ bibliography: crednf.bib
 
 # CRED-nf online checklist tool (Version 0.1.0)
 
-Neurofeedback is a process in which brain activity is recorded and presented back to participants in real-time. Neurofeedback is generally used to learn to self-regulate brain activity, and often to improve a behaviour or mental state associated with that brain activity [@Thibault2015]. While neurofeedback appears to improve behaviour and mental states, there is a debate as to what extent the benefits stem from self-regulating brain activity versus from psychosocial factors such as placebo effects [@Ros2020]. A lack of standards for experimental design and reporting leaves room for various interpretation of extant data. With this in mind, neurofeedback research collaborated and produced The Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf) checklist [@Ros2020].
+Neurofeedback is a process in which brain activity is recorded and presented back to participants in real-time. Neurofeedback is generally used to learn to self-regulate brain activity, and often to improve a behaviour or mental state associated with that brain activity. While neurofeedback appears to improve behaviour and mental states, there is a debate as to what extent the benefits stem from self-regulating brain activity versus from psychosocial factors such as placebo effects. A lack of standards for experimental design and reporting leaves room for various interpretation of extant data. With this in mind, neurofeedback research collaborated and produced The Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf) checklist (https://doi.org/10.1093/brain/awaa009).
 
 This CRED-nf online tool is an R Shiny app that accompanies the development of the checklist. It makes it easy for users to complete the checklist via a web browser, providing prompting questions for each of the items and highlighting those where users have left responses blank. It can also be used to generate a PDF report of responses which can be included alongside a manuscript submission to journals so that reviewers can have access to the completed checklist.
 
@@ -51,6 +51,3 @@ For those wishing to contribute or to raise issues regarding the functionality o
 Automatic testing can be performed using the `shinytest` R package. Two test files exist - one for testing checklist domains 1-3 and one for testing checklist domains 4-7. Both sets of tests can be performed simultaneously by running the `RunTests.R` script.
 
 One component of the app that cannot be tested automatically is the generation of the PDF report. Testing for this must be performed manually. To do so, run the app and navigate to the `Checklist Summary` tab. Clicking the `Download Summary` button should generate a PDF saved in a temporary location that will open automatically. Responses in the PDF should match those entered into the app and shown in the `Checklist Summary` tab.
-
-
-## References
