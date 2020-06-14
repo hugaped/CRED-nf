@@ -38,7 +38,7 @@ It is hosted online at: https://crednf.shinyapps.io/CREDnf/
 
 # Acknowledgements
 
-We thank other developers of the CRED-nf checklist [@Ros2020] for testing the tool and proving feedback for the working of the questions.
+We thank other developers of the CRED-nf checklist [@Ros2020] for testing the tool and providing feedback for the wording of the questions.
 
 
 # References
